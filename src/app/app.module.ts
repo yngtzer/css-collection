@@ -13,13 +13,15 @@ import { AppComponent } from './app.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { SquareLoadingComponent } from './square-loading/square-loading.component';
+import { FancyIntroductionComponent } from './fancy-introduction/fancy-introduction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainNavComponent,
     SpinnerComponent,
-    SquareLoadingComponent
+    SquareLoadingComponent,
+    FancyIntroductionComponent
   ],
   imports: [
     BrowserModule,
