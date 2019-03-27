@@ -14,6 +14,7 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { SquareLoadingComponent } from './square-loading/square-loading.component';
 import { FancyIntroductionComponent } from './fancy-introduction/fancy-introduction.component';
+import { StickyNavComponent } from './sticky-nav/sticky-nav.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FancyIntroductionComponent } from './fancy-introduction/fancy-introduct
     MainNavComponent,
     SpinnerComponent,
     SquareLoadingComponent,
-    FancyIntroductionComponent
+    FancyIntroductionComponent,
+    StickyNavComponent
   ],
   imports: [
     BrowserModule,
