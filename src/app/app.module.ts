@@ -15,6 +15,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
 import { SquareLoadingComponent } from './square-loading/square-loading.component';
 import { FancyIntroductionComponent } from './fancy-introduction/fancy-introduction.component';
 import { StickyNavComponent } from './sticky-nav/sticky-nav.component';
+import { GlowingGradientBorderComponent } from './glowing-gradient-border/glowing-gradient-border.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StickyNavComponent } from './sticky-nav/sticky-nav.component';
     SpinnerComponent,
     SquareLoadingComponent,
     FancyIntroductionComponent,
-    StickyNavComponent
+    StickyNavComponent,
+    GlowingGradientBorderComponent
   ],
   imports: [
     BrowserModule,
